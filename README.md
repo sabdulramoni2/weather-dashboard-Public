@@ -54,9 +54,11 @@ pip install -r requirements.txt
 ![Install dependencies](image.png)
 
 4. Configure environment variables (.env):
-```
+
+```markdown
 CopyOPENWEATHER_API_KEY=your_api_key
 AWS_BUCKET_NAME=your_bucket_name
+
 ```
 
 4.Configure AWS credentials:
