@@ -1,7 +1,7 @@
 # 30 Days DevOps Challenge - Weather Dashboard
 
 Day 1: Building a weather data collection system using AWS S3 and OpenWeather API
-![Achitectural diagram](image-4.png)
+![Achitectural diagram](pics/image-4.png)
 
 # Weather Data Collection System - DevOps Day 1 Challenge
 
@@ -52,7 +52,7 @@ git clone https://github.com/sabdulramoni2/weather-dashboard-Public.git
 3. Install dependencies:
 pip install -r requirements.txt
 
-![Install dependencies](image.png)
+![Install dependencies](pics/image.png)
 
 4. Configure environment variables (.env):
 
@@ -65,16 +65,16 @@ AWS_BUCKET_NAME=your_bucket_name
 5. Configure AWS credentials:
 aws configure
 
-![ran aws configure and verfiy bucket is created](image-1.png)
+![ran aws configure and verfiy bucket is created](pics/image-1.png)
 
 6. Run the application:
 python src/weather_dashboard.py
 
-![Ran python script](image-2.png)
+![Ran python script](pics/image-2.png)
 
 
 7. Verify data is stored in S3 bucket
-![data stored in s3](image-3.png)
+![data stored in s3](pics/image-3.png)
 
 What I Learned
 
