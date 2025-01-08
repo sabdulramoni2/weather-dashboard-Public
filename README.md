@@ -41,6 +41,7 @@ weather-dashboard/
   .env
   .gitignore
   requirements.txt
+  ```
 
 ## Setup Instructions
 1. Clone the repository:
