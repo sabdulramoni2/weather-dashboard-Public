@@ -61,18 +61,18 @@ AWS_BUCKET_NAME=your_bucket_name
 
 ```
 
-4.Configure AWS credentials:
+5. Configure AWS credentials:
 aws configure
 
 ![ran aws configure and verfiy bucket is created](image-1.png)
 
-5. Run the application:
+6. Run the application:
 python src/weather_dashboard.py
 
 ![Ran python script](image-2.png)
 
 
-6. Verify data is stored in S3 bucket
+7. Verify data is stored in S3 bucket
 ![data stored in s3](image-3.png)
 
 What I Learned
